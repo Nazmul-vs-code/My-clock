@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Digital clock</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title" style="color: white;">Digital Clock (<span id="year" ></span>)</h1>
+    <div id="main" class="container">
+      <h5 id="time" style="color: aqua;">Clock</h5>
+
+      <div id="clock-content">
+        <div id="date">Date: </div>
+        <div class="padding"><h4 class="time-part" id="hours"></h4></div>
+        <div class="padding"><h4 class="time-part" id="minites"></h4></div>
+        <div class="padding"><h4 class="time-part" id="sec"></h4></div>
+        <div id="ampm" class="">sss</div>
+      </div>
+      
+      <button id="Brightness" class="btn btn-primary">Toggle theme</button>
+    </div>
+    <div class="circle color-green" id="ball1"></div>
+    <div class="circle color-orange" id="ball2"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
